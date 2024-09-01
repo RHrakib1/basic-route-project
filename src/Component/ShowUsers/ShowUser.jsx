@@ -5,7 +5,7 @@ const ShowUser = () => {
     const show = useLoaderData()
     const {address,phone } = show
     return (
-        <div>
+        <div className='bg-slate-500'>
             <h2>Address:{address.city}</h2>
             <h4>Phone: {phone}</h4>
         </div>
